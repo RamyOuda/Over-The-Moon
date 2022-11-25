@@ -1,0 +1,62 @@
+<header>
+  <nav class="navbar navbar-expand navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand">
+        <img class="nav-img" src="../assets/ProfusT.png" alt="Home Button" />
+      </a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home" routerLinkActive="active-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/screenshots"
+            routerLinkActive="active-link"
+          >
+            Screenshots
+          </a>
+        </li>
+        <li class="nav-item">
+          <a
+            class="nav-link"
+            routerLink="/guide"
+            routerLinkActive="active-link"
+          >
+            Guide
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<router-outlet></router-outlet>
+
+<footer class="bg-dark">
+  <ul>
+    <li>
+      <i
+        class="fa-brands fa-discord fa-bounce"
+        style="
+          --fa-bounce-start-scale-x: 1;
+          --fa-bounce-start-scale-y: 1;
+          --fa-bounce-jump-scale-x: 1;
+          --fa-bounce-jump-scale-y: 1;
+          --fa-bounce-land-scale-x: 1;
+          --fa-bounce-land-scale-y: 1;
+        "
+      ></i>
+      Join our Discord!
+    </li>
+    <li>
+      <i
+        class="fa-regular fa-face-grin-squint-tears fa-spin fa-spin-reverse"
+      ></i>
+      Post Dank Memes!
+    </li>
+    <li><i class="fa-solid fa-wifi fa-fade"></i> LOLtun</li>
+  </ul>
+</footer>

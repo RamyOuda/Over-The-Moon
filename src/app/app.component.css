@@ -2,6 +2,11 @@
   width: 50px;
 }
 
+.discord-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .active-link {
   color: #ffffff;
 }

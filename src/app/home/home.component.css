@@ -12,13 +12,36 @@ h1 {
   font-size: 45px;
 }
 
-section {
+main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 
   padding-top: 40px;
 }
 
 p {
-  width: 50%;
+  padding: 0px 350px;
+}
+
+/* #home-carousel {
+  width: 80%;
+} */
+
+/* .c-item {
+  height: 480px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+} */
+
+/* Media Queries */
+
+/* Phone */
+@media screen and (max-width: 500px) {
+  p {
+    padding: 0px 50px;
+  }
 }
